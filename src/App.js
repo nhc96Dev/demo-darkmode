@@ -27,7 +27,7 @@ function App() {
     windowSize.width < 500 ? setIsMobile(true) : setIsMobile(false);
   }, [windowSize]);
   return (
-    <div className="font-sora overflow-y-auto overflow-x-hidden h-screen px-4 py-8 bg-gradient-to-b dark:from-purple-900 dark:to-purple-700 from-white to-pink-500 dark:text-white text-black md:px-16 laptop:px-18 desktop:px-28">
+    <div className="h-screen px-4 py-8 overflow-x-hidden overflow-y-auto text-black font-sora bg-gradient-to-b dark:from-purple-900 dark:to-purple-700 from-white to-pink-500 dark:text-white md:px-16 laptop:px-18 desktop:px-28">
       <Navbar isMobile={isMoible} />
       <Slogan />
       <Content />
